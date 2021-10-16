@@ -34,7 +34,7 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/logo1" />
+                        android:src="@drawable/watch_logo1" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -53,27 +53,6 @@
                         android:text="2h, New York, USA"
                         android:textSize="8dp"
                         android:textStyle="italic" />
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginTop="22dp"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="10dp"
-                        android:layout_height="10dp"
-                        android:layout_centerVertical="true"
-                        android:src="@drawable/newdautichxanh" />
-
-                    <TextView
-                        android:layout_width="250dp"
-                        android:layout_height="15dp"
-                        android:layout_marginLeft="12dp"
-                        android:text="added a new photo "
-                        android:textSize="10dp" />
                 </RelativeLayout>
             </LinearLayout>
 
@@ -218,7 +197,7 @@
                         android:layout_width="50dp"
                         android:layout_height="60dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/logo2" />
+                        android:src="@drawable/watch_logo2" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -233,7 +212,7 @@
                         android:layout_width="130dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="55dp"
-                        android:layout_marginTop="50dp"
+                        android:layout_marginTop="40dp"
                         android:text="2h "
                         android:textSize="10dp"
                         android:textStyle="italic" />
@@ -258,7 +237,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
-                        android:text="T1 áp đảo hoàn toàn 100 thieves #VCS #VETV7 #LMHT" />
+                        android:text="T1 with 100 thieves #VCS #VETV7 #LMHT" />
 
                     <VideoView
                         android:id="@+id/View_video2"
@@ -377,7 +356,7 @@
                         android:layout_width="50dp"
                         android:layout_height="60dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/logo3" />
+                        android:src="@drawable/watch_logo3" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -537,7 +516,7 @@
                         android:layout_width="50dp"
                         android:layout_height="60dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/logo4" />
+                        android:src="@drawable/watch_logo4" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -589,7 +568,7 @@
                     <VideoView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="200dp"
+                        android:layout_marginTop="100dp"
                         android:id="@+id/View_video4"/>
                     <TextView
                         android:layout_width="match_parent"

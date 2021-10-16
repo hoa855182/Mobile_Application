@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         videoView2.setVideoURI(uri2);
 
         MediaController mediaController2 = new MediaController(this);
-        videoView.setMediaController(mediaController2);
+        videoView2.setMediaController(mediaController2);
         mediaController.setAnchorView(videoView2);
 
         /** Facebook view.3 */
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         videoView3.setVideoURI(uri3);
 
         MediaController mediaController3 = new MediaController(this);
-        videoView.setMediaController(mediaController3);
+        videoView3.setMediaController(mediaController3);
         mediaController.setAnchorView(videoView3);
 
         /** Facebook view.4 */
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         videoView4.setVideoURI(uri4);
 
         MediaController mediaController4 = new MediaController(this);
-        videoView.setMediaController(mediaController4);
+        videoView4.setMediaController(mediaController4);
         mediaController.setAnchorView(videoView4);
     }
     /** Called when the activity is about to become visible. */
