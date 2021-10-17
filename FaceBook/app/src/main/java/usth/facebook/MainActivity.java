@@ -28,45 +28,7 @@ public class MainActivity extends AppCompatActivity {
         pager.setOffscreenPageLimit(5);
         pager.setAdapter(adapter);
 
-        /** Facebook view.1 */
-        VideoView videoView = findViewById(R.id.View_video);
-        String videopath ="android.resource://" + getPackageName() + "/" + R.raw.video1;
-        Uri uri = Uri.parse(videopath);
-        videoView.setVideoURI(uri);
 
-        MediaController mediaController = new MediaController(this);
-        videoView.setMediaController(mediaController);
-        mediaController.setAnchorView(videoView);
-
-        /** Facebook view.2 */
-        VideoView videoView2 = findViewById(R.id.View_video2);
-        String videopath2 ="android.resource://" + getPackageName() + "/" + R.raw.video2;
-        Uri uri2 = Uri.parse(videopath2);
-        videoView2.setVideoURI(uri2);
-
-        MediaController mediaController2 = new MediaController(this);
-        videoView2.setMediaController(mediaController2);
-        mediaController.setAnchorView(videoView2);
-
-        /** Facebook view.3 */
-        VideoView videoView3 = findViewById(R.id.View_video3);
-        String videopath3 ="android.resource://" + getPackageName() + "/" + R.raw.video3;
-        Uri uri3 = Uri.parse(videopath3);
-        videoView3.setVideoURI(uri3);
-
-        MediaController mediaController3 = new MediaController(this);
-        videoView3.setMediaController(mediaController3);
-        mediaController.setAnchorView(videoView3);
-
-        /** Facebook view.4 */
-        VideoView videoView4 = findViewById(R.id.View_video4);
-        String videopath4 ="android.resource://" + getPackageName() + "/" + R.raw.video4;
-        Uri uri4 = Uri.parse(videopath4);
-        videoView4.setVideoURI(uri4);
-
-        MediaController mediaController4 = new MediaController(this);
-        videoView4.setMediaController(mediaController4);
-        mediaController.setAnchorView(videoView4);
     }
     /** Called when the activity is about to become visible. */
     @Override
