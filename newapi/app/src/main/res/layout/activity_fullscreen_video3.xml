@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fullscreen.Fullscreen_video3">
-
+    tools:context=".FullScreenWatch.Fullscreen_video3">
     <VideoView
         android:id="@+id/fullscreen3"
         android:layout_width="match_parent"
@@ -14,5 +13,4 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

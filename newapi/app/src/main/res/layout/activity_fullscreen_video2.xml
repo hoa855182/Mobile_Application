@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fullscreen.Fullscreen_video2">
-
+    tools:context=".FullScreenWatch.Fullscreen_video2">
     <VideoView
         android:id="@+id/fullscreen2"
         android:layout_width="match_parent"

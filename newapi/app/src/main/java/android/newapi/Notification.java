@@ -2,6 +2,9 @@ package android.newapi;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.newapi.NotificationDetail.DetailNotification1;
+import android.newapi.NotificationDetail.DetailNotification2;
+import android.newapi.NotificationDetail.DetailNotification3;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -50,7 +53,8 @@ public class Notification extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_notification, container, false);
     }
@@ -63,8 +67,7 @@ public class Notification extends Fragment {
         noti1.setOnClickListener(new View.OnClickListener() {
             // Start new list activity
             public void onClick(View v) {
-                Intent mainIntent = new Intent(getActivity(),
-                        DetailNoti1.class);
+                Intent mainIntent = new Intent(getActivity(), DetailNotification1.class);
                 startActivity(mainIntent);
                 v.setBackgroundColor(Color.WHITE);
             }
@@ -84,8 +87,7 @@ public class Notification extends Fragment {
         noti3.setOnClickListener(new View.OnClickListener() {
             // Start new list activity
             public void onClick(View v) {
-                Intent mainIntent = new Intent(getActivity(),
-                        DetailNoti2.class);
+                Intent mainIntent = new Intent(getActivity(), DetailNotification2.class);
                 startActivity(mainIntent);
                 v.setBackgroundColor(Color.WHITE);
             }
@@ -106,7 +108,7 @@ public class Notification extends Fragment {
             // Start new list activity
             public void onClick(View v) {
                 Intent mainIntent = new Intent(getActivity(),
-                        DetailNoti1.class);
+                        DetailNotification1.class);
                 startActivity(mainIntent);
                 v.setBackgroundColor(Color.WHITE);
             }
@@ -127,7 +129,7 @@ public class Notification extends Fragment {
             // Start new list activity
             public void onClick(View v) {
                 Intent mainIntent = new Intent(getActivity(),
-                        DetailNoti3.class);
+                        DetailNotification3.class);
                 startActivity(mainIntent);
                 v.setBackgroundColor(Color.WHITE);
             }
@@ -139,7 +141,7 @@ public class Notification extends Fragment {
             // Start new list activity
             public void onClick(View v) {
                 Intent mainIntent = new Intent(getActivity(),
-                        DetailNoti3.class);
+                        DetailNotification3.class);
                 startActivity(mainIntent);
                 v.setBackgroundColor(Color.WHITE);
             }
@@ -160,7 +162,7 @@ public class Notification extends Fragment {
             // Start new list activity
             public void onClick(View v) {
                 Intent mainIntent = new Intent(getActivity(),
-                        DetailNoti2.class);
+                        DetailNotification2.class);
                 startActivity(mainIntent);
                 v.setBackgroundColor(Color.WHITE);
             }
